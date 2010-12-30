@@ -280,7 +280,7 @@ var newPlayer = function(replace, width, height) {
 		self.volumeSlider.type = 'range';
 		self.volumeSlider.min = 0;
 		self.volumeSlider.max = 100;
-		self.volumeSlider.value = 100;
+		self.volumeSlider.value = 90;
 
 		self.volumeMute = create('div', self.volumePopup, 'youtube5volume-mute');
 		self.timeRemaining = create('div', self.controls, 'youtube5time-remaining');
